@@ -2,18 +2,18 @@
 
 **Ferramentas utilizadas:**
 
-Node
-Yarn
-VS Code
-Insomnia
-MongoDB Atlas
-MongoDB Compass Community
+Node  
+Yarn  
+VS Code  
+Insomnia  
+MongoDB Atlas  
+MongoDB Compass Community  
 
   
 **Dependências utilizadas:**
 
-Nodemon
-Express
-Mongoose
-Axios
-CORS
+Nodemon  
+Express  
+Mongoose  
+Axios  
+CORS  
