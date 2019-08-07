@@ -3,10 +3,10 @@ const axios = require("axios"),
 
 module.exports = {
     async index(req, res) {
-        const { user } = req.headers,
+        const { user } = req.headers, //loggedDev
         loggedDev = await dev.findById(user),
-        users = await dev.find({
-            $and: [
+        users = await dev.find({ //List of all devs
+            $and: [ //Filters for results
                 { _id: {$ne: user} },
                 { _id: {$nin: loggedDev.likes} },
                 { _id: {$nin: loggedDev.dislikes} }
