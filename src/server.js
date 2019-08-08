@@ -12,4 +12,4 @@ server.use(cors())
 server.use(express.json())
 server.use(routes)
 
-server.listen(3000, () => console.log("Serving on port 3000."))
+server.listen(3333, () => console.log("Serving on port 3333."))
