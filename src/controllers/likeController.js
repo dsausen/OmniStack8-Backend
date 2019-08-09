@@ -18,8 +18,8 @@ module.exports = {
         }
 
         //Pushes like to database
-        /* loggedDev.likes.push(targetDev._id)
-        await loggedDev.save() */
+        loggedDev.likes.push(targetDev._id)
+        await loggedDev.save()
 
         return res.json(loggedDev)
     }

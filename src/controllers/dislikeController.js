@@ -13,8 +13,8 @@ module.exports = {
         }
 
         //Pushes dislike to database
-        /* loggedDev.dislikes.push(targetDev._id)
-        await loggedDev.save() */
+        loggedDev.dislikes.push(targetDev._id)
+        await loggedDev.save()
 
         return res.json(loggedDev)
     }
